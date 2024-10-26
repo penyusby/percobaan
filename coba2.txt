@@ -1,1 +1,74 @@
-ayam goreng
+Berikut adalah contoh flow untuk aplikasi yang dirancang untuk membantu peternak ayam dalam mengawasi perkembangan telur, penjualan telur, dan perawatan telur. Flow ini mencakup beberapa aspek penting dari aplikasi.
+
+### Flow Aplikasi Pengawasan dan Penjualan Telur
+
+#### 1. **Start**
+   - Pengguna membuka aplikasi.
+
+#### 2. **Login / Registrasi**
+   - **Pengguna baru**: Melakukan registrasi.
+   - **Pengguna lama**: Melakukan login.
+
+#### 3. **Dashboard Utama**
+   - Menampilkan ringkasan informasi:
+     - Total telur yang diproduksi.
+     - Status kesehatan ayam.
+     - Statistik penjualan telur.
+
+#### 4. **Menu Utama**
+   - Pilihan menu:
+     1. **Pantau Perkembangan Telur**
+     2. **Catatan Penjualan**
+     3. **Perawatan Telur**
+     4. **Pengaturan**
+     5. **Laporan**
+
+### 5. **1. Pantau Perkembangan Telur**
+   - **Input Data Perkembangan** (Persegi Panjang)
+     - Tambahkan data baru (tanggal, jumlah telur, status).
+   - **Tampilkan Riwayat Perkembangan** (Persegi Panjang)
+     - Grafik atau tabel perkembangan telur dari waktu ke waktu.
+   - **End**
+
+### 6. **2. Catatan Penjualan**
+   - **Input Data Penjualan** (Persegi Panjang)
+     - Tambahkan detail penjualan (tanggal, jumlah telur, harga, pembeli).
+   - **Tampilkan Riwayat Penjualan** (Persegi Panjang)
+     - Statistik penjualan harian/mingguan/bulanan.
+   - **End**
+
+### 7. **3. Perawatan Telur**
+   - **Tambah Rincian Perawatan** (Persegi Panjang)
+     - Input data perawatan (jenis perawatan, tanggal, catatan).
+   - **Tampilkan Jadwal Perawatan** (Persegi Panjang)
+     - Daftar kegiatan perawatan yang harus dilakukan.
+   - **End**
+
+### 8. **4. Pengaturan**
+   - **Pengaturan Profil** (Persegi Panjang)
+     - Ubah informasi akun.
+   - **Pengaturan Notifikasi** (Persegi Panjang)
+     - Atur notifikasi untuk penjualan, perkembangan, dan perawatan.
+   - **End**
+
+### 9. **5. Laporan**
+   - **Generate Laporan** (Persegi Panjang)
+     - Laporan perkembangan telur, penjualan, dan perawatan.
+   - **Download / Cetak Laporan** (Persegi Panjang)
+   - **End**
+
+#### 10. **Logout**
+   - Pengguna keluar dari aplikasi.
+   - **End**
+
+### Diagram Flow (Sederhana)
+- **Start** → **Login / Registrasi** → **Dashboard Utama** → **Menu Utama**
+- Dari **Menu Utama**, pengguna bisa memilih salah satu:
+  - **Pantau Perkembangan Telur** → Input Data → Tampilkan Riwayat → **End**
+  - **Catatan Penjualan** → Input Data → Tampilkan Riwayat → **End**
+  - **Perawatan Telur** → Tambah Rincian → Tampilkan Jadwal → **End**
+  - **Pengaturan** → Pengaturan Profil / Notifikasi → **End**
+  - **Laporan** → Generate Laporan → Download / Cetak → **End**
+- **Logout** → **End**
+
+Ini adalah gambaran alur dasar aplikasi. Kamu bisa menambahkan lebih banyak detail atau langkah sesuai kebutuhan spesifik peternak ayam. Jika ada yang ingin ditambahkan atau dijelaskan lebih lanjut, silakan beri tahu!
